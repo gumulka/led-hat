@@ -3,6 +3,7 @@
 #include <zephyr/device.h>
 #include <zephyr/drivers/led_strip.h>
 #include <zephyr/kernel.h>
+#include <zephyr/random/random.h>
 
 #include "animations.h"
 
@@ -17,13 +18,17 @@ animation animations[] = {
 	color_fill,
 	chasing_pixel,
 	color_in_rainbow,
+	animations_off,
 };
 
 int main(void)
 {
+	int random_value;
+	sys_csrand_get(&random_value, sizeof(random_value));
+
 	struct led_rgb pixels[STRIP_NUM_PIXELS] = {0};
 
-	animation current = animations[1];
+	animation current = animations[random_value % ARRAY_SIZE(animations)];
 
 	if (!device_is_ready(strip)) {
 		LOG_ERR("LED strip device %s is not ready", strip->name);

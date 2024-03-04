@@ -2,6 +2,11 @@
 
 #include <string.h>
 
+int animations_off(struct led_rgb *pixels, int size, brightness_level brightness)
+{
+	return 1000;
+}
+
 #define RGB(_r, _g, _b)                                                                            \
 	{                                                                                          \
 		.r = (_r), .g = (_g), .b = (_b)                                                    \
