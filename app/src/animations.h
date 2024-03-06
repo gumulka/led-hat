@@ -12,6 +12,9 @@ typedef enum {
 typedef int (*animation)(struct led_rgb *pixels, int size, brightness_level brightness);
 
 int animations_off(struct led_rgb *pixels, int size, brightness_level brightness);
+int american_police(struct led_rgb *pixels, int size, brightness_level brightness);
+int blaulicht(struct led_rgb pixels[], int size, brightness_level brightness);
+int bauhelm(struct led_rgb pixels[], int size, brightness_level brightness);
 int color_fill(struct led_rgb *pixels, int size, brightness_level brightness);
 int chasing_pixel(struct led_rgb *pixels, int size, brightness_level brightness);
 int color_in_rainbow(struct led_rgb *pixels, int size, brightness_level brightness);

@@ -18,6 +18,57 @@ static const struct led_rgb colors[] = {
 	RGB(0x00, 0x00, 0xff),
 };
 
+int american_police(struct led_rgb pixels[], int size, brightness_level brightness)
+{
+	static size_t counter = 0;
+
+	memset(pixels, 0x00, sizeof(struct led_rgb) * size);
+
+	if (counter == 0) {
+		for (int i = 0; i < size / 2; i++) {
+			pixels[(i + 32) % size].r = 0xff >> brightness;
+		}
+		counter = 1;
+	} else {
+		for (int i = size / 2; i < size; i++) {
+			pixels[(i + 32) % size].b = 0xff >> brightness;
+		}
+		counter = 0;
+	}
+
+	return 500;
+}
+
+int siren(struct led_rgb pixels[], int size, brightness_level brightness, struct led_rgb color)
+{
+	static size_t counter = 0;
+
+	memset(pixels, 0x00, sizeof(struct led_rgb) * size);
+
+	int number = size / 5;
+
+	for (int i = 0; i < number; i++) {
+		pixels[(i + counter) % size].r = color.r >> brightness;
+		pixels[(i + counter) % size].g = color.g >> brightness;
+		pixels[(i + counter) % size].b = color.b >> brightness;
+	}
+	counter = (counter + 1) % size;
+
+	return 2;
+}
+
+int blaulicht(struct led_rgb pixels[], int size, brightness_level brightness)
+{
+	static struct led_rgb blau = RGB(0x00, 0x00, 0xff);
+	return siren(pixels, size, brightness, blau);
+}
+
+int bauhelm(struct led_rgb pixels[], int size, brightness_level brightness)
+{
+	static struct led_rgb gelb = RGB(0xff, 0x7F, 0x00);
+	return siren(pixels, size, brightness, gelb);
+}
+
 int color_fill(struct led_rgb *pixels, int size, brightness_level brightness)
 {
 	static size_t cursor = 0;

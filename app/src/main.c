@@ -20,10 +20,8 @@
 LOG_MODULE_REGISTER(main, CONFIG_APP_LOG_LEVEL);
 
 animation animations[] = {
-	color_fill,
-	chasing_pixel,
-	color_in_rainbow,
-	animations_off,
+	american_police, blaulicht,        bauhelm,        color_fill,
+	chasing_pixel,   color_in_rainbow, animations_off,
 };
 
 /* LED Service Variables */
