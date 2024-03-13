@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "led-hat")(type "KiCad")(uri "${KIPRJMOD}/led-hat.kicad_sym")(options "")(descr ""))
+)
