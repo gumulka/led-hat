@@ -3,7 +3,7 @@
 *~
 *.bak
 /#auto_saved_files#
-
+_autosave*
 
 fp-info-cache
 led_ble_hat.kicad_prl
