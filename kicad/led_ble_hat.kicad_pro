@@ -63,13 +63,7 @@
           "width": 0.174752
         }
       ],
-      "drc_exclusions": [
-        "clearance|136394133|40875000|3685c9c5-966c-48c5-8678-b1c0d4f418b3|892a43f4-5f17-459d-b922-9b726b3e2fa5",
-        "lib_footprint_mismatch|156000000|58000000|af3b7ed5-ab29-4027-bd2a-224d9a91dad5|00000000-0000-0000-0000-000000000000",
-        "lib_footprint_mismatch|161006728|59500000|2c1075d2-c580-4a06-918c-08fca16e3b62|00000000-0000-0000-0000-000000000000",
-        "starved_thermal|143475000|62350000|892a43f4-5f17-459d-b922-9b726b3e2fa5|757d493d-9943-479e-93b9-42eafe363348|F.Cu",
-        "starved_thermal|162600000|65500000|892a43f4-5f17-459d-b922-9b726b3e2fa5|2679f8e6-e946-453b-a83b-99e3ede69683|F.Cu"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -585,7 +579,7 @@
           "group_by": false,
           "label": "Datasheet",
           "name": "Datasheet",
-          "show": true
+          "show": false
         },
         {
           "group_by": false,
@@ -597,18 +591,36 @@
           "group_by": false,
           "label": "Qty",
           "name": "${QUANTITY}",
-          "show": true
+          "show": false
         },
         {
           "group_by": true,
           "label": "DNP",
           "name": "${DNP}",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC#",
+          "name": "LCSC#",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Beschreibung",
+          "name": "Description",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
-      "name": "Grouped By Value",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -662,7 +674,7 @@
   "sheets": [
     [
       "cb58f115-e882-4dc1-9527-e8eaecbcf666",
-      "Root"
+      "Stammblatt"
     ]
   ],
   "text_variables": {
