@@ -10163,6 +10163,107 @@
 			)
 		)
 	)
+	(footprint "g-Misc:JLCPCB_Mounting_hole"
+		(layer "F.Cu")
+		(uuid "978855a5-95ec-46e5-8569-cdb3318ef479")
+		(at 158.5 39)
+		(property "Reference" "REF**"
+			(at 0 -2.032 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "47524351-ae56-4884-a960-4dd2a4ec1734")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "JLCPCB_Mounting_hole"
+			(at 0 2.286 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d25aa969-25ae-4403-a94d-8e1f6bd226ab")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "g-Misc:JLCPCB_Mounting_hole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "f85039ad-809e-473e-bc19-d0a48477b973")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "efc48c8b-df9e-42d4-81ab-552d8e79af6e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "affd616b-0b04-4ada-acd3-4b006e8ef74a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Margin")
+			(uuid "3af24e94-ef0f-403e-82e1-daca66fa7086")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "d32ba160-6ae6-457d-9a84-eb7eabf44fa1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(clearance 0.248)
+			(zone_connect 0)
+			(uuid "648f77b7-251f-44f2-98fd-1ce1d196d819")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "97e98d11-fae1-43f2-be28-f78798c87090")
@@ -10635,6 +10736,107 @@
 			(rotate
 				(xyz 0 0 0)
 			)
+		)
+	)
+	(footprint "g-Misc:JLCPCB_Mounting_hole"
+		(layer "F.Cu")
+		(uuid "a0052690-715d-4f4c-9568-a1dfcf7aba52")
+		(at 140.5 67)
+		(property "Reference" "REF**"
+			(at 0 -2.032 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "f7fb30d9-2569-48d4-9ccf-8d295dbc24e2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "JLCPCB_Mounting_hole"
+			(at 0 2.286 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "ef94f519-fbe2-4e27-bfc6-9d4adb970683")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "g-Misc:JLCPCB_Mounting_hole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "525aaa01-f320-4ba5-a75d-15c1d38e8b2f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ec1f9691-dc84-42d5-a8ec-be70389bd2f0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "ad8dfb72-aafe-4974-961c-333d21bd0cb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Margin")
+			(uuid "f59c3377-f5ba-401d-91d0-de3bc432d2cc")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "b6c242b2-625d-4da1-ab5f-594e91216c5d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(clearance 0.248)
+			(zone_connect 0)
+			(uuid "2660a519-1f8c-4e0a-aef8-26114a4c4e26")
 		)
 	)
 	(footprint "TestPoint:TestPoint_Pad_D1.0mm"
@@ -17717,6 +17919,107 @@
 			(uuid "490576c1-e099-4026-a2f3-59d0f76d1727")
 		)
 	)
+	(footprint "g-Misc:JLCPCB_Mounting_hole"
+		(layer "F.Cu")
+		(uuid "f3916019-a4c5-412c-b306-d9b75fc315c6")
+		(at 133 39)
+		(property "Reference" "REF**"
+			(at 0 -2.032 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(hide yes)
+			(uuid "03bfbd0f-1518-4da8-905d-bc2d18da298b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.1)
+				)
+			)
+		)
+		(property "Value" "JLCPCB_Mounting_hole"
+			(at 0 2.286 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "837cd109-347f-405a-83ac-c05e0d292292")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "g-Misc:JLCPCB_Mounting_hole"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "1f185932-067b-4926-9742-b1ced68d0f08")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "c7e01a75-aa54-4e02-95aa-f9b399e67e0a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b2442617-5d2d-444f-813c-80ad0946f04e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(zone_connect 0)
+		(attr board_only exclude_from_pos_files exclude_from_bom)
+		(fp_circle
+			(center 0 0)
+			(end 1 0)
+			(stroke
+				(width 0.1)
+				(type default)
+			)
+			(fill none)
+			(layer "Margin")
+			(uuid "16e658aa-ceef-4cf5-bd22-10567e28cc60")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "030c4efd-8b31-4705-bc7e-3ff547221157")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(pad "" np_thru_hole circle
+			(at 0 0)
+			(size 1.152 1.152)
+			(drill 1.152)
+			(layers "F&B.Cu" "*.Mask")
+			(solder_mask_margin 0.148)
+			(clearance 0.248)
+			(zone_connect 0)
+			(uuid "bb9838a5-7262-49a7-bcd4-500923245ecb")
+		)
+	)
 	(footprint "Capacitor_SMD:C_0402_1005Metric"
 		(layer "F.Cu")
 		(uuid "f4e2baec-2d5f-4b0e-9fb5-08f738f81e61")
@@ -17724,7 +18027,7 @@
 		(descr "Capacitor SMD 0402 (1005 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -1.16 360)
+			(at 0 -1.16 0)
 			(layer "F.SilkS")
 			(hide yes)
 			(uuid "12d40ee5-8457-4862-bdd7-8e54e97fd4cb")
@@ -17736,7 +18039,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 0 1.16 360)
+			(at 0 1.16 0)
 			(layer "F.Fab")
 			(uuid "8005f53f-7346-4e05-b92d-07bd5dcc8f7a")
 			(effects
@@ -17900,7 +18203,7 @@
 			(uuid "1d6f8f1a-d47d-4c2e-ba9f-90001b7d6012")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a714ed66-a130-4634-966d-8c53493d9353")
 			(effects
@@ -20434,6 +20737,14 @@
 		(uuid "0472e740-52c0-49c7-b011-2c77162356c9")
 	)
 	(segment
+		(start 146.114321 43.185679)
+		(end 146.2 43.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "05e5c234-77b7-4a5d-88f4-eed162e7d0a3")
+	)
+	(segment
 		(start 147.6 54.9725)
 		(end 148.7225 54.9725)
 		(width 0.25)
@@ -20530,14 +20841,6 @@
 		(uuid "243227a0-19bc-49b2-9c0c-16d16a03a94c")
 	)
 	(segment
-		(start 144.214321 42.685679)
-		(end 144 42.9)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "264a029d-33fb-4624-b4f8-82e709e0cf2e")
-	)
-	(segment
 		(start 162.299999 65.5)
 		(end 162.6 65.5)
 		(width 1)
@@ -20556,7 +20859,7 @@
 	(segment
 		(start 146.2 43.1)
 		(end 146.2 44.7)
-		(width 0.3)
+		(width 0.2)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "29c38184-ab32-4e06-a40f-3ab85d0e03be")
@@ -20602,14 +20905,6 @@
 		(uuid "3477dcca-8874-4d3e-a1a3-989c3cf08498")
 	)
 	(segment
-		(start 145.785679 42.685679)
-		(end 146.2 43.1)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "39ecbbe8-e75c-4c19-8b38-09712c18fe68")
-	)
-	(segment
 		(start 148.2 42.011423)
 		(end 148.2 42)
 		(width 0.25)
@@ -20648,6 +20943,14 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "414127ba-672c-48c3-b363-6c99156db1f7")
+	)
+	(segment
+		(start 145.127427 43.185679)
+		(end 146.114321 43.185679)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "423a2d39-9a45-4555-b070-a6995ee204aa")
 	)
 	(segment
 		(start 153.8125 51.9375)
@@ -20712,14 +21015,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "47249edb-6721-4b7a-a764-5496500ddd1b")
-	)
-	(segment
-		(start 146.2 43.859963)
-		(end 146.2 44.7)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "47375ea1-db99-4f79-90c6-327079d4188b")
 	)
 	(segment
 		(start 137.75 46.313173)
@@ -20794,14 +21089,6 @@
 		(uuid "56e67f85-46e1-4347-b4c3-cfd55462884f")
 	)
 	(segment
-		(start 145.127427 43.185679)
-		(end 145.525716 43.185679)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "592edea5-6976-4187-8d0f-75b32bcf8351")
-	)
-	(segment
 		(start 144 42.9)
 		(end 143.964927 42.864927)
 		(width 0.25)
@@ -20832,14 +21119,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "5e6935ef-d02a-4969-b7f4-3d65c8a4882b")
-	)
-	(segment
-		(start 144.285679 43.185679)
-		(end 144 42.9)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "5f0c0583-c8d4-4bb7-bf36-2d650f3cb885")
 	)
 	(segment
 		(start 154.6625 44.9375)
@@ -20922,14 +21201,6 @@
 		(uuid "6e1f7b0a-434b-40da-bfd1-cd75c1cdd57c")
 	)
 	(segment
-		(start 145.127427 42.685679)
-		(end 145.785679 42.685679)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "6fdac09f-8170-40b7-b177-472d8679cb18")
-	)
-	(segment
 		(start 140.89 60.89)
 		(end 141.4 61.4)
 		(width 0.3)
@@ -20994,12 +21265,28 @@
 		(uuid "880265f3-3064-404e-a126-34a7d5db0462")
 	)
 	(segment
+		(start 145.127427 42.685679)
+		(end 145.785679 42.685679)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "88e123af-06b3-4781-a5e0-9a390ccd512e")
+	)
+	(segment
 		(start 134.89264 47.35736)
 		(end 135 47.25)
 		(width 0.25)
 		(layer "F.Cu")
 		(net 2)
 		(uuid "8b9cab5a-3fd7-4407-96b5-b0b64767d3bd")
+	)
+	(segment
+		(start 145.785679 42.685679)
+		(end 146.2 43.1)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 2)
+		(uuid "8beb5578-bc03-44a6-b099-eb7af209efb1")
 	)
 	(segment
 		(start 133.341825 54.287006)
@@ -21040,14 +21327,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "9755a2f4-e478-44d5-bdbe-6565f5c966a1")
-	)
-	(segment
-		(start 145.127427 42.685679)
-		(end 144.214321 42.685679)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "982713e3-f46d-4ef0-94ce-aa5fd32dc6b3")
 	)
 	(segment
 		(start 135.75 55.5)
@@ -21184,14 +21463,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "ba0d82fc-10d5-4195-99aa-65640504af36")
-	)
-	(segment
-		(start 145.127427 43.185679)
-		(end 144.285679 43.185679)
-		(width 0.25)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "be9a75bd-4d5f-4e66-acd7-6b16b546585e")
 	)
 	(segment
 		(start 151.4875 51.2375)
@@ -21464,14 +21735,6 @@
 		(layer "F.Cu")
 		(net 2)
 		(uuid "f5f3eef0-2210-490b-bef2-7ab19d8be2cd")
-	)
-	(segment
-		(start 145.525716 43.185679)
-		(end 146.2 43.859963)
-		(width 0.3)
-		(layer "F.Cu")
-		(net 2)
-		(uuid "fbc289ce-2058-412c-a2dc-a04bf488e60b")
 	)
 	(via
 		(at 139.211813 42.5)
@@ -21845,6 +22108,15 @@
 		(free yes)
 		(net 2)
 		(uuid "cbe19e1f-4d89-4a5f-9964-afd8a0ea6fba")
+	)
+	(via
+		(at 147.4 65.8)
+		(size 0.8)
+		(drill 0.4)
+		(layers "F.Cu" "B.Cu")
+		(free yes)
+		(net 2)
+		(uuid "d8e47dc3-7aa4-4b93-b038-28c9ea017b4c")
 	)
 	(via
 		(at 148.2 41)

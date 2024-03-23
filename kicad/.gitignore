@@ -7,3 +7,8 @@ _autosave*
 
 fp-info-cache
 led_ble_hat.kicad_prl
+
+Fabrication/
+Gerbers/
+Output/
+led_ble_hat.zip

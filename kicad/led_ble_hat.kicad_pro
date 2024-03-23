@@ -63,7 +63,27 @@
           "width": 0.174752
         }
       ],
-      "drc_exclusions": [],
+      "drc_exclusions": [
+        "clearance|136600000|40500000|3685c9c5-966c-48c5-8678-b1c0d4f418b3|892a43f4-5f17-459d-b922-9b726b3e2fa5",
+        "clearance|142577426|42273179|6343f2a8-5df4-422a-85cf-7158096a1229|53cc27ff-e1f6-496f-975e-8c24886504a9",
+        "clearance|142577427|42773179|53cc27ff-e1f6-496f-975e-8c24886504a9|8f2be918-ffbd-487e-b212-cf6dfe1084b2",
+        "clearance|142577427|43273179|8f2be918-ffbd-487e-b212-cf6dfe1084b2|f7646163-0be3-41d4-886e-da5bccf742c7",
+        "clearance|143027426|43773179|f7646163-0be3-41d4-886e-da5bccf742c7|2aef66ee-8973-4913-bda7-401d68f6ea02",
+        "clearance|143377428|42098179|67cb0b10-9ba4-4e82-94cb-bf0ff38dd1d1|6343f2a8-5df4-422a-85cf-7158096a1229",
+        "clearance|143552428|43623179|2aef66ee-8973-4913-bda7-401d68f6ea02|f2906f9c-921b-4c1c-8ffc-3213457ef083",
+        "clearance|144052427|43623179|f2906f9c-921b-4c1c-8ffc-3213457ef083|8b3dedba-71b0-41e7-bb93-ac3e8fd7d3c8",
+        "clearance|144377426|41798179|9a7d4c23-d5cb-4234-8c7f-26683e39f80b|b41b2ab3-e737-4378-9a41-e5b26edccb3e",
+        "clearance|144902428|42098179|2ac83be2-0836-43c1-8438-42211c4e7253|9a7d4c23-d5cb-4234-8c7f-26683e39f80b",
+        "clearance|144902428|42598179|9c6e487c-e76f-4707-96b6-ed4cb0c3f426|2ac83be2-0836-43c1-8438-42211c4e7253",
+        "clearance|144902428|43598179|955bb32a-8d26-4d19-8244-fa62c082f094|fd9fd4e1-f1a4-42be-9856-512fcec16e4d",
+        "clearance|144902428|43623179|955bb32a-8d26-4d19-8244-fa62c082f094|8b3dedba-71b0-41e7-bb93-ac3e8fd7d3c8",
+        "lib_footprint_mismatch|156000000|58000000|af3b7ed5-ab29-4027-bd2a-224d9a91dad5|00000000-0000-0000-0000-000000000000",
+        "lib_footprint_mismatch|161006728|59500000|2c1075d2-c580-4a06-918c-08fca16e3b62|00000000-0000-0000-0000-000000000000",
+        "starved_thermal|143475000|62350000|892a43f4-5f17-459d-b922-9b726b3e2fa5|757d493d-9943-479e-93b9-42eafe363348|F.Cu",
+        "starved_thermal|143964927|42023179|892a43f4-5f17-459d-b922-9b726b3e2fa5|b41b2ab3-e737-4378-9a41-e5b26edccb3e|F.Cu",
+        "starved_thermal|148890001|42000000|892a43f4-5f17-459d-b922-9b726b3e2fa5|ee71c0a3-d1d2-4087-af17-4f89aa9db843|F.Cu",
+        "starved_thermal|162600000|65500000|892a43f4-5f17-459d-b922-9b726b3e2fa5|2679f8e6-e946-453b-a83b-99e3ede69683|F.Cu"
+      ],
       "meta": {
         "version": 2
       },
@@ -241,7 +261,9 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      "pin_to_pin|990600|457200|f46e0f5b-c43f-467d-9249-c7f3ad6932eb|9ffe1483-7d08-4065-9813-419adf06bf2a|/cb58f115-e882-4dc1-9527-e8eaecbcf666|/cb58f115-e882-4dc1-9527-e8eaecbcf666|/cb58f115-e882-4dc1-9527-e8eaecbcf666"
+    ],
     "meta": {
       "version": 0
     },
@@ -674,7 +696,7 @@
   "sheets": [
     [
       "cb58f115-e882-4dc1-9527-e8eaecbcf666",
-      "Stammblatt"
+      "Root"
     ]
   ],
   "text_variables": {
